@@ -1,0 +1,186 @@
+@use "sass:color";
+
+$font-family: 'Nunito', sans-serif;
+$font-family2:'Underdog', sans-serif;
+$font-color: #d6d6e4;
+
+/**
+ *He decidido utilizar la metodología BEM para estructurar el css
+ */
+
+.body{
+    background-color: rgb(186, 73, 73);
+}
+
+.header{
+    padding: 0;
+    height: 10rem;
+    background-color: rgb(16, 16, 16);
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.9fr;
+    align-items: center;
+    
+}
+
+.main{
+    background: rgb(206, 95, 95);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    align-items: center;
+}
+ 
+.title{
+    color:cornsilk;
+    font-family:'Leckerli One', sans-serif;
+    text-align: center;
+    font-size: 4rem; 
+}
+
+.h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+ .banner-imagen img{
+    height: 10rem;
+}
+
+.link{
+    text-decoration: none;
+    color:rgb(36, 34, 34);
+    font-family: $font-family2;
+    font-weight: bold;
+    font-size: calc(0.3em + 1.2vw);
+    }
+
+    .elementos{
+        list-style-type: none;
+    }
+    .navegador_segundo{
+        margin:0;
+        padding:0;
+    }
+
+    .button{
+        background-color:$font-color
+    }
+
+    .intro{
+        font-family: $font-family;
+        text-align: center;
+        font-size: 1.90rem;
+        padding-right:10vw;
+        padding-left:10vw;
+        line-height: 5vh;
+        
+    }
+
+
+    .cuadricula{
+        width: 1600px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card{
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:2em;
+        }
+
+    
+
+
+
+    .wrapper{
+        margin-left: 5rem;
+        margin-right: 5rem;
+        display: grid;
+        grid-template-rows: 1fr 0.2 fr 1fr;
+    }
+    .secciones{
+        display: grid;
+        grid-template-columns: 1fr 0.75fr;
+    }
+    .espada{
+        padding-left: 4rem;
+    }
+
+    .warning{
+        color:crimson;
+        font-size: 1.5rem;
+    }
+
+    .articulos{
+        margin-top: 5rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
+        margin-bottom: 7rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .texto_articulo{
+        font-family: $font-family;
+        font-size: 1.7rem;
+        text-align: justify;
+    }
+    .titulo_articulo{
+        font-family: $font-family;
+        font-size: 3rem;
+        text-align: left;
+        padding-bottom: 3rem;
+        font-weight: bold;
+
+    }
+    .footer{
+        padding: 0;
+        height: 10rem;
+        background-color:rgb(43, 38, 38);
+        display: grid;
+        grid-template-columns: 2fr 1fr 0.75fr;
+        align-items: center;
+        
+    }
+    .instagram{
+        color:$font-color;
+        text-decoration: none;
+        font-size: 30px;
+      }
+      .linkedin{
+        color:$font-color;
+        text-decoration: none;
+        font-size: 30px;
+      }
+      .contact{
+        color:$font-color;
+        text-decoration: none;
+        font-size: 30px;
+      }
+
+      .lista-navegador{
+        padding-right: 3vw;
+        padding-left: 0;
+        list-style-type: none;
+        text-align: left;
+      
+      
+          &__item {
+            display:inline-block;
+            padding: 1vw;
+          }
+        }
+
+        //.wrapper {
+           
+        //  }
+      
