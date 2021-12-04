@@ -1,0 +1,77 @@
+@media screen and (max-width: 1500px){
+    .articulos{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: 3rem auto;
+    }
+}
+
+        
+@media screen and (max-width: 450px){
+    .title{
+        font-size: 7vw; 
+    }
+
+    .main{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .elementos{
+        padding-bottom: 0;
+    }
+
+    .banner-imagen img{
+        width: 50vw;
+    }
+
+    .footer-imagen img{
+        width: 50vw;
+    }
+
+    .card-img-top img{
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .articulos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secciones{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .espada {
+        display: none;
+    }
+
+    .instagram{
+        font-size: 25px;
+    }
+    
+    .linkedin{
+        font-size: 25px;
+    }
+    
+    .contact{
+        font-size: 25px;
+    }
+
+}
